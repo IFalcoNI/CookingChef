@@ -209,32 +209,32 @@ form > input {
   margin: 10px 0;
   outline: none;
   border: none;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   background-color: rgb(165, 165, 165);
 }
-form > input:focus{
+form > input:focus {
   width: 90%;
   background-color: white;
 }
-input::placeholder{
+input::placeholder {
   color: rgb(255, 255, 255);
 }
-.Login{
+.Login {
   margin-bottom: 20px;
   color: rgba(255, 0, 230, 1);
 }
-.Login__Button{
+.Login__Button {
   width: 80px;
   height: 40px;
   border-radius: 20px;
   font-weight: 600;
   border: none;
   background: rgba(255, 0, 230, 0.548);
-  transition: background,color .3s ease-in-out;
+  transition: background, color 0.3s ease-in-out;
 }
-.Login__Button:hover{
-background-color: teal;
-color: white;
+.Login__Button:hover {
+  background-color: teal;
+  color: white;
 }
 @media screen and (max-width: 1100px) {
   .receip__item {
@@ -254,7 +254,7 @@ color: white;
   h1 {
     font-size: 28px;
   }
-  .Login{
+  .Login {
     font-size: 50px;
   }
   h2 {
@@ -262,7 +262,7 @@ color: white;
     font-weight: 900;
     color: rgb(0, 0, 0);
   }
-  .Devs > h2{
+  .Devs > h2 {
     font-size: 20px;
   }
   .instagram {
@@ -271,10 +271,9 @@ color: white;
   .instagram:hover {
     color: white;
   }
-  
+
   .devs_a {
     font-size: 14px;
-    
   }
 }
 @media screen and (max-width: 400px) {
@@ -288,12 +287,12 @@ color: white;
   }
 }
 @media screen and (max-width: 320px) {
-  .Sign > a{
+  .Sign > a {
     font-size: 16px;
   }
 }
 @media screen and (max-width: 320px) {
-  .Sign{
+  .Sign {
     display: none;
   }
 }
