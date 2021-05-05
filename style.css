@@ -80,7 +80,7 @@ main {
   margin-bottom: 20px;
 }
 .receip__item img {
-  height: 400px;
+  width: 50%;
   border-radius: 20px;
 }
 #checkbox {
@@ -123,13 +123,10 @@ main {
   float: left;
   margin-left: 20px;
 }
-.checkbox_item{
-/* display: flex;
+.checkbox_item {
+  /* display: flex;
 align-items: center; */
-width: 100%;
-}
-li > #text{
-  margin-bottom: 5px;
+  width: 100%;
 }
 footer {
   width: 100%;
@@ -142,7 +139,23 @@ footer {
   .receip__item {
     flex-direction: column;
   }
+  .receipe img {
+    width: 95%;
+  }
   #checkboxes {
     margin-top: 20px;
+  }
+  .directions {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 500px) {
+  h1{
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
   }
 }
