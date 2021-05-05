@@ -222,9 +222,9 @@ input::placeholder{
   color: rgba(255, 0, 230, 1);
 }
 .Login__Button{
-  width: 60px;
-  height: 30px;
-  border-radius: 15px;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
   font-weight: 600;
   border: none;
   background: rgba(255, 0, 230, 0.548);
@@ -259,6 +259,20 @@ color: white;
     font-size: 25px;
     font-weight: 900;
     color: rgb(0, 0, 0);
+  }
+  .Devs > h2{
+    font-size: 20px;
+  }
+  .instagram {
+    width: 20px;
+  }
+  .instagram:hover {
+    color: white;
+  }
+  
+  .devs_a {
+    font-size: 14px;
+    
   }
 }
 @media screen and (max-width: 400px) {
