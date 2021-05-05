@@ -200,9 +200,9 @@ form {
   align-items: center;
 }
 form > input {
-  width: 70%;
-  height: 30px;
-  border-radius: 15px;
+  width: 80%;
+  height: 40px;
+  border-radius: 20px;
   padding: 0 15px;
   margin: 10px 0;
   outline: none;
@@ -211,7 +211,7 @@ form > input {
   background-color: rgb(165, 165, 165);
 }
 form > input:focus{
-  width: 80%;
+  width: 90%;
   background-color: white;
 }
 input::placeholder{
@@ -259,5 +259,25 @@ color: white;
     font-size: 25px;
     font-weight: 900;
     color: rgb(0, 0, 0);
+  }
+}
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 350px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .Sign > a{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .Sign{
+    display: none;
   }
 }
